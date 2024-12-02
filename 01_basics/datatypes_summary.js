@@ -16,23 +16,23 @@
 // console.log(id1===id2);
 
 // const bigNumber=3457574839839893n
-const outT=null;
+//  const outT=null;
 
-// ARRAY
-const heros=["shaktiman","doraemon","shinchan"];
+// // ARRAY
+// const heros=["shaktiman","doraemon","shinchan"];
 
-//OBJECT
-let obj={
-    name:"abhinav",
-    age=23;
-}
+// //OBJECT
+// let obj={
+//     name:"abhinav",
+//     age=23;
+// }
 
-//FUNCTION   // fn is like a variable
-const myFunction=function(){
-   // console.log("Hello World";)
-}
+// //FUNCTION   // fn is like a variable
+// const myFunction=function(){
+//    // console.log("Hello World";)
+// }
 
-console.log(typeof outT);
+// console.log(typeof outT);
 
 // typeof
 
@@ -40,3 +40,27 @@ console.log(typeof outT);
 // undefined=>undefined
 // number=>number
 // object =>function
+
+
+//********************************* */
+
+// Stack Memory(Primitive),   Heap(Non Primitive)
+
+// let myname="Abhinav Choudhary"
+
+// let anothername=myname
+// anothername="abhiji"
+
+// console.log(myname);
+// console.log(anothername);
+
+let userOne={
+    email: "user@gmail.com";
+    upi:"user@ybl";
+}
+let userTwo=userOne;
+
+userTwo.email="abhinav@google.com";
+
+console.log(userOne.email);   //same output =abhinav@google.com
+console.log(userTwo.email);
