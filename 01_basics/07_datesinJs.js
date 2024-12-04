@@ -30,10 +30,10 @@ let myTimeStamp=Date.now()
 let newDate=new Date()
 console.log(newDate.getMonth());   // op-> 11 (december start from 0)
 
-newDate.toLocaleString('default'{    // customarise date and time zone
-    weekday:"long",
-    timeZone:""
-})
+// newDate.toLocaleString('default'{    // customarise date and time zone
+//     weekday:"long",
+//     timeZone:""
+// })
 
 
 
